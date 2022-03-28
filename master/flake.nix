@@ -11,7 +11,6 @@
   inputs.src-chronopipe-master.ref   = "refs/heads/master";
   inputs.src-chronopipe-master.owner = "williamd1k0";
   inputs.src-chronopipe-master.repo  = "chrono";
-  inputs.src-chronopipe-master.dir   = "";
   inputs.src-chronopipe-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
